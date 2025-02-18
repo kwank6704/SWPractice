@@ -1,0 +1,24 @@
+# ละเว้นไฟล์ระบบและ IDE
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+*.log
+
+# ละเว้นไฟล์ที่สร้างจาก npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ละเว้นไฟล์ที่ใช้ทดสอบหรือไฟล์ชั่วคราว
+*.tmp
+*.swp
+*.swo
+
+# ละเว้นไฟล์ของระบบปฏิบัติการ
+*.bak
+*.~*
+*.orig
